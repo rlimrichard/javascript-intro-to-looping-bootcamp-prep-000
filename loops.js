@@ -1,3 +1,12 @@
+function forLoop (array) {
+    var i = array.length
+    for (var i=array.length; i<array.length+25 ; i++){
+        array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`)
+    }
+    return array
+}
+
+
 function doWhileLoop (array){
     while (maybeTrue() && array.length >0){
         array.pop()
@@ -7,13 +16,7 @@ function doWhileLoop (array){
 }
 
 
-function forLoop (array){
-    var i = array.length
-    for (var i=array.length; i<array.length+25 ; i++){
-        array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`)
-    }
-    return array
-}
+
 
 function whileLoop (n){
     while (n > 0){
