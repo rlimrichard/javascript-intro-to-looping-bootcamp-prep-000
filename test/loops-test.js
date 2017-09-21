@@ -29,7 +29,9 @@ describe('loops', () => {
   describe('forLoop(array)', () => {
     it('adds `"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."` to an array 25 times', () => {
       const [array, t] = makeArray()
+      console.log("array: "+array);
       const strangeArray = forLoop(array)
+      console.log("strangeArray: " + strangeArray);
 
       expect(strangeArray.length).to.equal(t + 25)
 
