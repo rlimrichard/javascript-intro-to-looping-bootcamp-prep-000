@@ -6,15 +6,15 @@ function doWhileLoop (array){
 }
 
 
-function forLoop(array){
+function forLoop (array){
     for (let i=0; i<25 ; i++){
         array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`)
     }
     return array
 }
 
-function whileLoop(n){
-    while (n > 0) {
+function whileLoop (n){
+    while (n > 0)
         console.log(--n)
 
     return 'done';
@@ -23,6 +23,6 @@ function whileLoop(n){
 
 
 
-function maybeTrue() {
+function maybeTru e() {
   return Math.random() >= 0.5
 }
