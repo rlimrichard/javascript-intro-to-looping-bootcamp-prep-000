@@ -29,6 +29,6 @@ function whileLoop (n){
 
 
 
-function maybeTru e() {
+function maybeTrue() {
   return Math.random() >= 0.5
 }
