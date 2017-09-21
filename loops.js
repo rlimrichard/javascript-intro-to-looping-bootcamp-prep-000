@@ -1,6 +1,7 @@
 function doWhileLoop (array){
-    while (maybeTrue() && array.length >0)
+    while (maybeTrue() && array.length >0){
         array.pop()
+    }
 
     return array
 }
@@ -14,8 +15,9 @@ function forLoop (array){
 }
 
 function whileLoop (n){
-    while (n > 0)
+    while (n > 0){
         console.log(--n)
+    }
 
     return 'done';
 }
